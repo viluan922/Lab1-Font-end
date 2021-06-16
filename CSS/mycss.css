@@ -1,0 +1,197 @@
+﻿{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:"Poppins",sans-serif;
+}
+.header{
+    background:radial-gradient(circle,rgba(63,94,251,1) 0%,rgba(252,70,107,1)100%);
+}
+.hearder .row{
+    margin-top:70px;
+}
+.container{
+    max-width:1300px;
+    margin:auto;
+    padding-left:25px;
+    padding-right:25px;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    padding:20px;
+}
+
+nav{
+    flex:1;
+    text-align:right;
+}
+
+nav ul{
+    display:inline-block;
+    list-style-type:20px;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+}
+.row{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.header .row{
+    margin-top:75px;
+}
+.col-2{
+    flex-basis:50%;
+    min-width:300px;
+}
+.col-2 img{
+    max-width:105%;
+    padding:55px 0;
+}
+.col-2 h1{
+    font-size:55px;
+    line-height:65px;
+    margin:30px 0;
+}
+.btn{
+    display:inline-block;
+    background:#ff523b;
+    color:#fff;
+    padding:9px 35px;
+    margin :35px 0;
+    border-radius:35px;
+    transition:background 0.6s;
+}
+.btn:hover{
+    background:#563434;
+}
+p{
+    color:#fff;
+}
+/*categoris*/
+.small-container{
+    min-width:1080ox;
+    margin:auto;
+    padding-left:30px;
+    padding-right:30px;
+}
+.categories{
+    margin:75px 0;
+}
+.col-3{
+    flex-basis:35%;
+    min-width:255px;
+    margin-bottom:35px;
+}
+.col-3 img{
+    width:100%;
+}
+/*end cate*/
+/*product dit bo play*/
+.title{
+    text-align:center;
+    margin:0 auto 60px;
+    position:relative;
+    line-height:60px;
+    color:#555;
+}
+.title::after{
+    content:"";
+    background:#ff523b;
+    width:80px;
+    height:5px;
+    border-radius:5px;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+}
+.col-4{
+    flex-basis:25%;
+    padding:10px;
+    min-width:205px;
+    margin-bottom:55px;
+    transition:transform 0.7s;
+}
+.col-4 img{
+    width:100%;
+}
+.col-4:hover{
+    transform:translateY(-5px);
+}
+h4{
+    color:#555;
+    font-size:normal;
+}
+.rating .fa{
+    color:#ff523b;
+}
+/*xog dịsplay*/
+/*PR*/
+.offer{
+    background: radial-gradient(circle,rgba(63,94,251,1) 0%,rgba(252,70,107,1)100% );
+    margin-top:85px;
+    padding :35px 0;
+}
+.col-2 .offer-img{
+    padding :55px;
+}
+small{
+    color:#fff;
+}
+/*xog PR*/
+/*feed back*/
+/testimonial{
+    padding-top:100px;
+}
+/*css cho cột đánh giá*/
+.testimonial .col-3{
+    text-align:center;
+    padding:45px 25px;
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.1);/*đổ bóng*/
+    cursor:pointer;
+    transition:transform 0.5s;
+}
+.testimonial .col-3-img{
+    width:50px;
+    margin-top:20px;
+    border-radius:50%;
+}
+.testimonial .col-3:hover{
+    transform:translateY(-10px);
+}
+.testimonial .col-3 h3{
+    font-weight:600;
+    color:#555;
+    font-size:16px;
+}
+.fa.fa-quote-left{
+    font-size:34px;
+    color:#ff523b;
+}
+.col-3 p{
+    font-size:12px;
+    margin:12px 0;
+    color:#777;
+}
+/*brand logo*/
+.brands{
+    margin:100px auto;
+}
+.col-5{
+    width:160px;
+}
+.col-5-img{
+    width:100%;
+    cursor:pointer;
+    filter:grayscalte(100%);
+}
+.col-5-img:hover{
+    filter:grayscalte(0);
+}
