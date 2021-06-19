@@ -13,7 +13,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="hinh/images/logo-one.png" width="120px"/>
+                    <img src="hinh/images/logo-one.png" width="130px"/>
                 </div>
                 <nav>
                     <ul class="MenuItem">
@@ -224,7 +224,7 @@
                         improvement ...v.v
                     </small>
                     <div class="button">
-                        <a href="#" class="btn">Buy Now! &#10132;</a>
+                        <a href="#" onclick="buyNow(); return false;" class="btn">Buy Now &#10132;</a>
                     </div>
                 </div>
             </div>
@@ -305,24 +305,53 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <!--dow app-->
                 <div class="footer-col-1">
-                    <h3>Dow our app</h3>
-                    <p>Dow app for Android and IOS</p>
-                    <div class="app-logo">
-                        <img src="hinh/images/play-store.png" />
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and Ios.</p>
+                    <div>
                         <img src="hinh/images/app-store.png" />
+                        
                     </div>
-                </div>
-                <div class="footer-col-1">
-                    <p> chung tui la fanatics</p>
-                    <div class="col-5">
-                        <img src="hinh/images/logo-one.png" />
+                    <div>
+                        <img src="hinh/images/play-store.png" />
                     </div>
                 </div>
 
+                <div class="footer-col-2">
+                    <div class="app-logo">
+                        <img src="hinh/images/logo-one.png" width="200px" />
+                    </div>
+                    
+                    <p>Our purpose Is To Sustainably make the Pleasure and BeneFit of Sports Accessible to the Many.</p>
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <p>Coupons</p>
+                    <p>Blog Post</p>
+                    <p>Return Policy</p>
+                    <p>Become Affiliate</p>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <p>Facebook</p>
+                    <p>Instagram</p>
+                    <p>Youtube</p>
+                    <p>Twitter</p>
+                </div>
             </div>
+            <hr />
+            <p class="copyright">Copyright 2021 - ViLuan</p>
         </div>
-    </div>
 </body>
 </html>
+
+<!--JavaScript-->
+<script type="text/javascript">
+    function buyNow() {
+        question = confirm("Cậu muốn mua cái này à?");
+        if (question = true) {
+            arlert('Cảm ơn Cậu đã mua sp')
+        }
+    }
+</script>
